@@ -1,0 +1,157 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+
+}
+
+.container{
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+.circle{
+    width:216px ;
+    height:216px ;
+    background-color:red ;
+    border-radius:50% ;
+top: 250px;
+left: 650px;
+box-shadow: 2px 25px 17px 7px rgba(0,0,0,0.5);
+}
+.circle:hover{
+    background-color: green;
+    transform: scale(0.9);
+}
+.button-one{
+    width: 127px;
+    height: 33px;
+   background-color: yellow;
+    border-radius: 20%;
+    top: 600px;
+    left: 850px;
+    box-shadow: 2px 25px 17px 7px rgba(0,0,0,0.5);
+}
+.button-one:hover{
+ transform: scale(1.4);
+}
+
+.button-two{
+    width: 127px;
+    height: 33px;
+    background-color: green;
+    border-radius: 20%;
+    top: 600px;
+    left: 533px;
+    box-shadow: 2px 25px 17px 7px rgba(0,0,0,0.5);
+}
+.button-two:hover{
+    transform: scale(1.4);
+   }
+.button-three{
+    width: 127px;
+    height: 33px;
+    background-color:red;
+    border-radius: 20%;
+    top: 600px;
+    left: 242px;
+    box-shadow: 2px 25px 17px 7px rgba(0,0,0,0.5);
+}
+.button-three:hover{
+    transform: scale(1.4);
+   }
+.button-four{
+    width: 127px;
+    height: 33px;
+    background-color:blue;
+    border-radius: 20%;
+    top: 600px;
+    left: 1130px;
+    box-shadow: 2px 25px 17px 7px rgba(0,0,0,0.5);
+}
+.button-four:hover{
+    transform: scale(1.4);
+   }
+   .line{
+       width: 10px;
+       height: 600px;
+       background-color: black;
+       top: 64px;
+       left: 38px;
+       animation: move-up 2s infinite alternate;
+   }
+   @keyframes move-up {
+       from{
+           top:500px
+       } to {
+           top: 1px
+       }
+   }
+   .line-two{
+    width: 10px;
+    height: 600px;
+    background-color: black;
+    top: 10px;
+    left: 150px;
+    animation: move-up 3s infinite alternate;
+   }
+   .line-three{
+    width: 10px;
+    height: 600px;
+    background-color: black;
+    top: 10px;
+    left: 100px;
+    animation: move-up 4s infinite alternate;
+   }
+.square{
+    width: 300px;
+    height: 800px;
+    background-color: white;
+    top: 0px;
+    left: 1300px;
+    animation: shrink 4s infinite alternate;
+}
+.square-two{
+    width: 300px;
+    height: 800px;
+    background-color: black;
+    top: 0px;
+    left: 1300px;
+    animation: shrink 6s infinite alternate;
+}
+@keyframes shrink{
+    from{
+        transform: scaleX(0.1);
+
+    } to{
+        transform: scaleX(5);
+    }
+}
+.square-three{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    top: 100px;
+    left: 50px;
+    animation: shrink 5s infinite alternate;
+}
+.square-four{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    top: 100px;
+    left: 50px;
+    animation: shrink 3s infinite alternate;
+}
+.line-three{
+    width: 30px;
+    height: 600px;
+    background-color: white;
+    top: 100px;
+    left: 1350px;
+    animation: move-up 6s infinite alternate;
+   }
